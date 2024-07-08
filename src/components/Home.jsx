@@ -6,6 +6,9 @@ import Logo3 from "../assets/img/logo3.svg";
 import Logo4 from "../assets/img/logo4.svg";
 import Logo5 from "../assets/img/logo5.svg";
 import Button from "../utils/Button";
+import CardBox from "./CardBox";
+import CircleProvides from "./CircleProvides";
+import Concentrate from "./Concentrate";
 import DevelopSection from "./DevelopSection";
 export default function Home() {
   return (
@@ -77,6 +80,18 @@ export default function Home() {
 
         <div>
           <DevelopSection />
+        </div>
+
+        <div>
+          <CardBox />
+        </div>
+
+        <div>
+          <Concentrate />
+        </div>
+
+        <div>
+          <CircleProvides />
         </div>
       </div>
     </div>

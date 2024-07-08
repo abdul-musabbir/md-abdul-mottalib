@@ -17,8 +17,8 @@ export default function DevelopSection() {
           </p>
         </div>
 
-        <div className="flex items-center justify-center">
-          <img src={Frame2} alt="code frame" className="w-[10rem]" />
+        <div className="flex items-center justify-center mt-10 shadows">
+          <img src={Frame2} alt="code frame" className="w-11/12" />
         </div>
       </div>
     </div>
