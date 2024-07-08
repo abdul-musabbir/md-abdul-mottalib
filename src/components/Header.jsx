@@ -1,4 +1,4 @@
-import { Menu } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import cn from "../lib/cn";
@@ -22,16 +22,20 @@ export default function Header() {
 
           <div>
             <Button className={""} onClick={() => setDrop(!drop)}>
-              <Menu className="text-white size-10" />
+              {drop ? (
+                <X className="text-white size-10" />
+              ) : (
+                <Menu className="text-white size-10" />
+              )}
             </Button>
           </div>
 
           <div
             className={cn("absolute left-0 top-28 w-full", {
-              " hidden ": !drop,
+              " hidden": !drop,
             })}
           >
-            <div className="text-white w-4/5 flex flex-col mx-auto text-center gap-4 py-4">
+            <div className="text-white w-4/5 flex flex-col mx-auto text-center gap-4 py-8 bg-[#03090e] rounded-2xl">
               <Link to={"/"} className="uppercase font-medium">
                 how it works?
               </Link>
