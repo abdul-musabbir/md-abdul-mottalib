@@ -10,6 +10,7 @@ import CardBox from "./CardBox";
 import CircleProvides from "./CircleProvides";
 import Concentrate from "./Concentrate";
 import DevelopSection from "./DevelopSection";
+import JoinTheCommunity from "./JoinTheCommunity";
 export default function Home() {
   return (
     <div className="py-10">
@@ -92,6 +93,10 @@ export default function Home() {
 
         <div>
           <CircleProvides />
+        </div>
+
+        <div>
+          <JoinTheCommunity />
         </div>
       </div>
     </div>
