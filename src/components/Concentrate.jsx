@@ -17,7 +17,7 @@ export default function Concentrate() {
         </p>
       </div>
 
-      <div className="xl:mt-10 mt-20">
+      <div className="mt-20">
         <ContentBox data={data} />
       </div>
     </div>
