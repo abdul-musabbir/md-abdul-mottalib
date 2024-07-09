@@ -2,7 +2,7 @@ import Frame2 from "../assets/img/frame2.svg";
 export default function DevelopSection() {
   return (
     <div className="">
-      <div className="xl:grid xl:grid-cols-2 xl:items-center">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <div>
           <h2 className="text-4xl font-medium xl:text-5xl">
             Finally you can develop{" "}

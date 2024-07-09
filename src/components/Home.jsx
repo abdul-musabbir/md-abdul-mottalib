@@ -19,7 +19,7 @@ export default function Home() {
         <div className="flex flex-col h-96 sm:h-auto justify-center xl:mb-20 mt-10">
           <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row sm:justify-between sm:items-center md:grid md:grid-cols-4">
             <div className="flex col-span-3">
-              <h1 className="font-medium xl:leading-[5rem] text-3xl sm:text-4xl xl:text-[70px]">
+              <h1 className="font-medium xl:leading-[5rem] text-3xl sm:text-4xl md:text-5xl xl:text-[70px]">
                 Expert Developers for a Connected{" "}
                 <span className="text-greens ibm-plex-mono">{"{Worlds}"}</span>
               </h1>
@@ -42,7 +42,7 @@ export default function Home() {
             <div className="xl:inline-block">
               <Button
                 className={
-                  "flex md:flex gap-3 bg-greens text-black py-3 px-6 font-medium xl:w-52"
+                  "flex md:flex gap-3 bg-greens text-black py-3 px-6 font-medium md:w-52"
                 }
               >
                 <Video />

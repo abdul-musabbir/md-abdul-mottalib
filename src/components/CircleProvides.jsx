@@ -14,7 +14,7 @@ export default function CircleProvides() {
             for your source code.
           </h2>
 
-          <div className="flex flex-col xl:grid xl:grid-cols-2 xl:gap-10 xl:mt-10 gap-16 mt-5">
+          <div className="flex flex-col md:grid md:grid-cols-2 md:gap-10 md:mt-10 gap-16 mt-5">
             <div className="flex flex-col gap-5">
               <p className="opacity-65">
                 Create issues, sections into tasks, track relationships, add

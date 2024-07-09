@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function ContentBox(props) {
   const { data } = props;
   return (
-    <div className="flex flex-col gap-20 xl:grid xl:grid-cols-2">
+    <div className="flex flex-col gap-20 md:gap-8 md:grid md:grid-cols-2">
       {data.map((res, index) => {
         return (
           <div
