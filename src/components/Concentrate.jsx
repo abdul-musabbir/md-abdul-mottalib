@@ -3,9 +3,9 @@ import CodeImage from "../assets/img/frame2.svg";
 import ContentBox from "./ContentBox";
 export default function Concentrate() {
   return (
-    <div className="py-10">
+    <div className="">
       <div className="flex flex-col gap-2">
-        <h2 className="text-3xl text-center font-medium">
+        <h2 className="text-3xl text-center font-medium xl:text-4xl">
           Concentrate on{" "}
           <span className="ibm-plex-mono text-greens">{"{larger}"}</span>{" "}
           issues.
@@ -17,7 +17,7 @@ export default function Concentrate() {
         </p>
       </div>
 
-      <div className="mt-10">
+      <div className="xl:mt-10">
         <ContentBox data={data} />
       </div>
     </div>

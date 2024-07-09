@@ -9,7 +9,7 @@ export default function Header() {
   const [drop, setDrop] = useState(false);
   return (
     <div className="py-4">
-      <div className="flex w-11/12 mx-auto bg-[#0f1206] h-20">
+      <div className="flex w-11/12 mx-auto bg-[#0f1206] h-20 xl:w-[1200px]">
         <div className="mx-auto flex w-11/12 justify-between items-center">
           <div>
             <p className="font-bold text-xl">
@@ -20,7 +20,7 @@ export default function Header() {
             </p>
           </div>
 
-          <div>
+          <div className="md:hidden">
             <Button className={""} onClick={() => setDrop(!drop)}>
               {drop ? (
                 <X className="text-white size-10" />
@@ -31,11 +31,14 @@ export default function Header() {
           </div>
 
           <div
-            className={cn("absolute left-0 top-28 w-full", {
-              " hidden": !drop,
-            })}
+            className={cn(
+              "absolute left-0 top-28 w-full md:block md:w-auto md:relative md:top-0 md:left-0",
+              {
+                " hidden": !drop,
+              }
+            )}
           >
-            <div className="text-white w-4/5 flex flex-col mx-auto text-center gap-4 py-8 bg-[#03090e] rounded-2xl">
+            <div className="text-white w-4/5 md:w-full flex flex-col mx-auto text-center gap-4 py-8 bg-[#03090e] md:bg-inherit rounded-2xl md:flex-row md:rounded-none">
               <Link to={"/"} className="uppercase font-medium">
                 how it works?
               </Link>

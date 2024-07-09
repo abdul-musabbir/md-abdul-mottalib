@@ -3,10 +3,12 @@ import { Link } from "react-router-dom";
 
 export default function CardBox() {
   return (
-    <div className="py-10 flex flex-col gap-10">
+    <div className="flex flex-col xl:gap-6 xl:grid xl:grid-cols-2">
       <div className="bg-[#0A1319] border-b-4 px-6 py-5 border-greens">
-        <div className="flex flex-col gap-2">
-          <h3 className="text-2xl font-bold">Optimized Frameworks</h3>
+        <div className="flex flex-col gap-2 xl:gap-6">
+          <h3 className="text-2xl font-bold xl:text-3xl">
+            Optimized Frameworks
+          </h3>
           <p className=" opacity-60">
             A custom environment designed especially for developing and
             facilitating React, Vue, Angular, and other.
@@ -22,8 +24,10 @@ export default function CardBox() {
       </div>
 
       <div className="px-6 py-5">
-        <div className="flex flex-col gap-2">
-          <h3 className="text-2xl font-bold">Integrated with GitHub</h3>
+        <div className="flex flex-col gap-2 xl:gap-6">
+          <h3 className="text-2xl font-bold xl:text-3xl">
+            Integrated with GitHub
+          </h3>
           <p className=" opacity-60">
             Import and run GitHub repositories directly. Alternatively, you can
             commit your source code to a repository.
@@ -38,7 +42,7 @@ export default function CardBox() {
         </div>
       </div>
 
-      <div>
+      <div className="xl:mt-8">
         <Link to={"/"} className="uppercase flex gap-2 opacity-70">
           explore more services <CornerDownRightIcon />
         </Link>

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 export default function Footer() {
   return (
     <div className="bg-[#12181D] border-b-[6px] border-b-greens">
-      <div className="flex mx-auto w-11/12 py-8">
+      <div className="flex mx-auto w-11/12 py-8 xl:w-[1200px]">
         <div className="w-full flex flex-col">
-          <div className="flex flex-col gap-10">
+          <div className="flex flex-col gap-10 sm:flex-wrap sm:flex-row sm:justify-between">
             <div className={"flex flex-col gap-5"}>
               <h3 className="text-xl font-bold opacity-90">Company</h3>
               <div className="flex flex-col gap-2">

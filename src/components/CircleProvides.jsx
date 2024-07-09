@@ -3,10 +3,10 @@ import FrameBoard from "../assets/img/FrameBoard.svg";
 import Button from "../utils/Button";
 export default function CircleProvides() {
   return (
-    <div className="py-10">
+    <div className="">
       <div>
-        <div className="flex flex-col gap-10">
-          <h2 className="text-3xl">
+        <div className="flex flex-col">
+          <h2 className="text-3xl xl:text-5xl">
             Circle provides teams and individuals with customizable{" "}
             <span className="text-greens text-center ibm-plex-mono">
               {"{management tools}"}{" "}
@@ -14,9 +14,9 @@ export default function CircleProvides() {
             for your source code.
           </h2>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col xl:grid xl:grid-cols-2 xl:gap-10 xl:mt-10">
             <div>
-              <p className="mb-10 opacity-65">
+              <p className="opacity-65">
                 Create issues, sections into tasks, track relationships, add
                 custom spaces, and initiate discussions. Visualize large
                 projects with spreadsheets or codeboards, and use the help of

@@ -1,10 +1,10 @@
 import Frame2 from "../assets/img/frame2.svg";
 export default function DevelopSection() {
   return (
-    <div className="py-10">
-      <div>
+    <div className="">
+      <div className="xl:grid xl:grid-cols-2 xl:items-center">
         <div>
-          <h2 className="text-4xl font-medium">
+          <h2 className="text-4xl font-medium xl:text-5xl">
             Finally you can develop{" "}
             <span className="text-greens">{"{full-stack}"} </span>
             web applications in one place.
