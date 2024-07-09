@@ -1,4 +1,3 @@
-import { Video } from "lucide-react";
 import Frame from "../assets/img/frame.svg";
 import Logo1 from "../assets/img/logo1.svg";
 import Logo2 from "../assets/img/logo2.svg";
@@ -42,11 +41,10 @@ export default function Home() {
             <div className="xl:inline-block">
               <Button
                 className={
-                  "flex md:flex gap-3 bg-greens text-black py-3 px-6 font-medium md:w-52"
+                  "flex md:flex gap-3 bg-greens text-black text-center py-2 font-medium shadows w-28 items-center justify-center"
                 }
               >
-                <Video />
-                <span className="uppercase">watch a video</span>
+                <span className="uppercase text-center">HIRE ME</span>
               </Button>
             </div>
 
