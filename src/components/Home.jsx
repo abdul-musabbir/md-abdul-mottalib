@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="sm:pt-0">
       <div className="flex mx-auto w-11/12 flex-col xl:w-[1200px]">
-        <div className="flex flex-col h-96 sm:h-auto justify-center xl:mb-20 mt-10">
+        <div className="flex flex-col h-96 sm:h-auto justify-center xl:mb-20 mt-10 lg:mt-16">
           <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row sm:justify-between sm:items-center md:grid md:grid-cols-4">
             <div className="flex col-span-3">
               <h1 className="font-medium xl:leading-[5rem] text-3xl sm:text-4xl md:text-5xl xl:text-[70px]">
@@ -58,7 +58,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="xl:mt-20 mt-10">
+        <div className="mt-10 lg:mt-0">
           <img src={Frame} alt="frame" className="w-full" />
         </div>
 

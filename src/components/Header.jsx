@@ -8,7 +8,7 @@ export default function Header() {
   // const [state, dispatch] = useReducer(reducer, initialState);
   const [drop, setDrop] = useState(false);
   return (
-    <div className="py-2 sticky top-0 left-0 right-0 z-50">
+    <div className="py-2 lg:py-4 sticky top-0 left-0 right-0 z-50">
       <div className="flex w-11/12 mx-auto bg-[#0f1206] h-20 xl:w-[1200px]">
         <div className="mx-auto flex w-11/12 justify-between items-center">
           <div>
