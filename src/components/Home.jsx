@@ -10,10 +10,11 @@ import CardBox from "./CardBox";
 import CircleProvides from "./CircleProvides";
 import Concentrate from "./Concentrate";
 import DevelopSection from "./DevelopSection";
+import Footer from "./Footer";
 import JoinTheCommunity from "./JoinTheCommunity";
 export default function Home() {
   return (
-    <div className="py-10">
+    <div className="pt-10">
       <div className="flex mx-auto w-11/12 flex-col">
         <div className="flex flex-col gap-10 h-96 justify-center">
           <div className="flex flex-col gap-5">
@@ -99,6 +100,12 @@ export default function Home() {
           <JoinTheCommunity />
         </div>
       </div>
+
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
+
+//  to={'/'}
