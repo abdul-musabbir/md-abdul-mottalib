@@ -10,7 +10,7 @@ export default function DevelopSection() {
             web applications in one place.
           </h2>
 
-          <p className="mt-8 opacity-50">
+          <p className="mt-8 opacity-50 lg:text-lg">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
             sint. Velit officia consequat duis enim velit mollit. Exercitation
             veniam consequat sunt nostrud ame

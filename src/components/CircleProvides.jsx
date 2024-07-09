@@ -16,7 +16,7 @@ export default function CircleProvides() {
 
           <div className="flex flex-col md:grid md:grid-cols-2 md:gap-10 md:mt-10 gap-16 mt-5">
             <div className="flex flex-col gap-5">
-              <p className="opacity-65">
+              <p className="opacity-65 lg:text-lg">
                 Create issues, sections into tasks, track relationships, add
                 custom spaces, and initiate discussions. Visualize large
                 projects with spreadsheets or codeboards, and use the help of

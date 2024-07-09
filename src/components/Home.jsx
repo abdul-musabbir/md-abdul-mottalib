@@ -88,23 +88,23 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="xl:my-20 my-10">
+        <div className="xl:my-[50px] my-10 lg:py-7">
           <DevelopSection />
         </div>
 
-        <div className="xl:my-20 my-10">
+        <div className="xl:my-[50px] my-10 lg:py-7">
           <CardBox />
         </div>
 
-        <div className="xl:my-20 my-10">
+        <div className="xl:my-[50px] my-10 lg:py-7">
           <Concentrate />
         </div>
 
-        <div className="xl:my-20 my-10">
+        <div className="xl:my-[50px] my-10 lg:py-7">
           <CircleProvides />
         </div>
 
-        <div className="xl:mt-20 xl:mb-40 mt-10 mb-20">
+        <div className="xl:mt-[50px] mt-10 mb-20 lg:py-7">
           <JoinTheCommunity />
         </div>
       </div>
