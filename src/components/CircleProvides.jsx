@@ -14,8 +14,8 @@ export default function CircleProvides() {
             for your source code.
           </h2>
 
-          <div className="flex flex-col xl:grid xl:grid-cols-2 xl:gap-10 xl:mt-10">
-            <div>
+          <div className="flex flex-col xl:grid xl:grid-cols-2 xl:gap-10 xl:mt-10 gap-16 mt-5">
+            <div className="flex flex-col gap-5">
               <p className="opacity-65">
                 Create issues, sections into tasks, track relationships, add
                 custom spaces, and initiate discussions. Visualize large
@@ -25,14 +25,14 @@ export default function CircleProvides() {
               <div className="flex gap-5">
                 <Button
                   className={
-                    "flex gap-2 uppercase bg-greens text-black px-6 py-3 rounded-lg"
+                    "flex gap-2 uppercase bg-greens text-black px-6 py-3 rounded-lg text-xs items-center"
                   }
                 >
-                  <Video /> watch a video
+                  <Video className="size-5" /> watch a video
                 </Button>
                 <Button
                   className={
-                    "uppercase px-4 py-2 bg-green-950 text-white shadowses"
+                    "uppercase px-4 py-2 text-xs bg-green-950 text-white shadowses"
                   }
                 >
                   get a demo

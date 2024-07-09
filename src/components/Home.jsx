@@ -14,12 +14,12 @@ import Footer from "./Footer";
 import JoinTheCommunity from "./JoinTheCommunity";
 export default function Home() {
   return (
-    <div className="pt-10 sm:pt-0">
+    <div className="sm:pt-0">
       <div className="flex mx-auto w-11/12 flex-col xl:w-[1200px]">
-        <div className="flex flex-col h-96 sm:h-auto justify-center xl:mt-20">
+        <div className="flex flex-col h-96 sm:h-auto justify-center xl:mb-20 mt-10">
           <div className="flex flex-col gap-5 sm:gap-0 sm:flex-row sm:justify-between sm:items-center md:grid md:grid-cols-4">
-            <div className="flex col-span-2">
-              <h1 className="font-medium text-3xl sm:text-4xl xl:text-6xl">
+            <div className="flex col-span-3">
+              <h1 className="font-medium xl:leading-[5rem] text-3xl sm:text-4xl xl:text-[70px]">
                 Expert Developers for a Connected{" "}
                 <span className="text-greens ibm-plex-mono">{"{Worlds}"}</span>
               </h1>
@@ -38,7 +38,7 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="flex flex-col items-start md:flex-row xl:gap-10 xl:mt-10">
+          <div className="flex flex-col items-start md:flex-row xl:gap-10 xl:mt-10 mt-10 gap-3">
             <div className="xl:inline-block">
               <Button
                 className={
@@ -58,11 +58,11 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="xl:mt-20">
+        <div className="xl:mt-20 mt-10">
           <img src={Frame} alt="frame" className="w-full" />
         </div>
 
-        <div className="flex flex-col xl:mb-20 gap-10">
+        <div className="flex flex-col xl:mb-20 gap-10 my-10">
           <div>
             <p className=" uppercase opacity-60 text-center">
               Providing power to the {"world's"}best product teams.
@@ -88,23 +88,23 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="xl:my-20">
+        <div className="xl:my-20 my-10">
           <DevelopSection />
         </div>
 
-        <div className="xl:my-20">
+        <div className="xl:my-20 my-10">
           <CardBox />
         </div>
 
-        <div className="xl:my-20">
+        <div className="xl:my-20 my-10">
           <Concentrate />
         </div>
 
-        <div className="xl:my-20">
+        <div className="xl:my-20 my-10">
           <CircleProvides />
         </div>
 
-        <div className="xl:mt-20 xl:mb-40">
+        <div className="xl:mt-20 xl:mb-40 mt-10 mb-20">
           <JoinTheCommunity />
         </div>
       </div>
